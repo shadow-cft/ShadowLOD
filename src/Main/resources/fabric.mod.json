@@ -1,0 +1,27 @@
+
+{
+  "schemaVersion": 1,
+  "id": "shadowlod",
+  "version": "1.0.0",
+  "name": "ShadowLOD",
+  "description": "A lightweight hybrid distant terrain rendering mod optimized for low-end Android devices.",
+  "authors": [
+    "Shadow Craft"
+  ],
+  "contact": {
+    "sources": "https://github.com/ShadowCraft/ShadowLOD"
+  },
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.shadow.shadowlod.ShadowLOD"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
